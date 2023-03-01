@@ -9,7 +9,8 @@ The problem that this project will attempt to tackle is to predict what the U.S.
 This section will capture references and additional information applicable to this project.
 
 ## Data References
-
+- [Zillow Housing Data](https://www.zillow.com/research/data/)
+- [U.S. Bureau of Labor Statistics - Top Picks](https://data.bls.gov/cgi-bin/surveymost?la)
 
 ## Contributors
 - Adams, Heather
