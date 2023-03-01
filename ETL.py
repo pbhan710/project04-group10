@@ -1,1 +1,0 @@
-# This script will transform raw target data (i.e., monthly inventory by city) and associated features into one DataFrame to be utilized for machine learning.
