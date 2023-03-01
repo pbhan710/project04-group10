@@ -14,6 +14,8 @@ This section will capture references and additional information applicable to th
 - [Zillow Housing Data](https://www.zillow.com/research/data/)
 - [U.S. Bureau of Labor Statistics - Top Picks](https://data.bls.gov/cgi-bin/surveymost?la)
 - [Realtor.com](https://www.realtor.com/research/data/)
+- [United States Census Bureau](https://www.census.gov/data.html)
+- [National Alliance for Public Charter Schools](https://data.publiccharters.org/) 
 
 ![gettyimages-1303100759-612x612](https://user-images.githubusercontent.com/112498067/222028641-f8ac4cde-a3c3-48f3-a818-6d7f6753a32e.jpg)
 
