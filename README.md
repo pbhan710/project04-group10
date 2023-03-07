@@ -70,7 +70,7 @@ This section will capture references and additional information applicable to th
 - [U.S. Bureau of Labor Statistics - Top Picks](https://data.bls.gov/cgi-bin/surveymost?la)
 - [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series[…]/1/2016-2023?base_prd=true&begbaseyear=1901&endbaseyear=2000)
 
-![gettyimages-1303100759-612x612](https://user-images.githubusercontent.com/112498067/222028641-f8ac4cde-a3c3-48f3-a818-6d7f6753a32e.jpg)
+![image](https://user-images.githubusercontent.com/112498067/223527623-b430a5cf-50b0-4f55-9f8f-b5f3265fc65c.png)
 
 ## Contributors
 - Adams, Heather
