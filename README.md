@@ -3,6 +3,8 @@ Our team decided to analyze the recent volatility in the housing market and atte
 
 ![chart](https://user-images.githubusercontent.com/112498067/223543032-ad52825d-50c4-4225-89c1-c885494292b2.png)
 
+![image](https://user-images.githubusercontent.com/112498067/223527623-b430a5cf-50b0-4f55-9f8f-b5f3265fc65c.png)
+
 [Project Proposal](https://docs.google.com/document/d/1xqcCmtrioxThe1zX2F1_XzJN-4-UOv9txNYIFMb7ytQ/edit)
 
 # Target and Features
@@ -64,18 +66,18 @@ Once we decided on our datasets and project goal, we extracted all the data and 
 
 ![image](https://user-images.githubusercontent.com/112498067/223524398-a5c2124a-28ba-4fd4-9887-8a52f26cee92.png)
 
-![image](https://user-images.githubusercontent.com/112498067/223524717-a65751e8-ef42-4120-9856-2209a8b05e52.png)
+![image](https://user-images.githubusercontent.com/112498067/223579718-b4fab1f2-d800-4dff-9f62-12732c213ae3.png)
 
 ![image](https://user-images.githubusercontent.com/112498067/223524814-6f7352f7-8fde-4edd-a1ed-d9ff0176246b.png)
 
 ##### Feature Importance for Random Forest Model:
-![image](https://user-images.githubusercontent.com/112498067/223525245-0605c066-e730-4a0e-ac5f-fe86a0382766.png)
+![image](https://user-images.githubusercontent.com/112498067/223579785-20810a7a-4da8-4a95-8b97-2af4d9f905e8.png)
 
 - Logistic Regression Model:
 
 ![image](https://user-images.githubusercontent.com/112498067/223525715-5bd5775a-5aca-47a8-8018-fd590775f6a5.png)
 
-![image](https://user-images.githubusercontent.com/112498067/223525800-40648cf4-ff51-4287-a244-26421be5469b.png)
+![image](https://user-images.githubusercontent.com/112498067/223579891-a894d8f9-f78e-46be-9ca2-6a25085fe91b.png)
 
 ![image](https://user-images.githubusercontent.com/112498067/223525845-7596cbc1-483c-49a8-9b40-37685e11f024.png)
 
@@ -84,25 +86,17 @@ Once we decided on our datasets and project goal, we extracted all the data and 
 ![image](https://user-images.githubusercontent.com/112498067/223525962-b4f64ec6-a88e-4b49-a57b-d823faa6199a.png)
 
 #Loss:
-![image](https://user-images.githubusercontent.com/112498067/223526147-b89600e6-7cd9-463a-92f4-ac74d929f1c6.png)
-![image](https://user-images.githubusercontent.com/112498067/223526266-21ad0b7e-53e0-40d6-a430-4893a3c34e76.png)
-![image](https://user-images.githubusercontent.com/112498067/223526625-99657e49-153a-4f2c-ae23-1f3e066e4be4.png)
+
+![image](https://user-images.githubusercontent.com/112498067/223579965-ab748c1c-0d3e-4307-ba4b-3566e3722ef2.png)
 
 #Accuracy:
-![image](https://user-images.githubusercontent.com/112498067/223526845-791087d0-28b0-4540-b4bb-07e81d2d9ca4.png)
-![image](https://user-images.githubusercontent.com/112498067/223526927-cdb588cb-9463-47c3-91fe-c33d9b0b44ab.png)
-![image](https://user-images.githubusercontent.com/112498067/223527032-cdcae337-f005-43e4-90f5-588d11f4eb73.png)
-![image](https://user-images.githubusercontent.com/112498067/223527230-a17c63a2-9838-4305-9b48-a8e507067e47.png)
 
-# Appendix
-This section will capture references and additional information applicable to this project.
+![image](https://user-images.githubusercontent.com/112498067/223580006-936e991d-2795-4598-9fe7-3cc4934d7b19.png)
 
 ## Data References
 - [Realtor.com](https://www.realtor.com/research/data/)
 - [U.S. Bureau of Labor Statistics - Top Picks](https://data.bls.gov/cgi-bin/surveymost?la)
 - [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/time-series[…]/1/2016-2023?base_prd=true&begbaseyear=1901&endbaseyear=2000)
-
-![image](https://user-images.githubusercontent.com/112498067/223527623-b430a5cf-50b0-4f55-9f8f-b5f3265fc65c.png)
 
 ## Contributors
 - Adams, Heather
