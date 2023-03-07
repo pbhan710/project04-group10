@@ -1,9 +1,41 @@
 # Introduction
-Our team decided to analyze the recent volatility in the housing market and attempt to predict where the market is heading with machine learning. After scouring the internet for datasets on the topic, we chose Realtor.com monthly data detailing monthly change in inventory from January 2016 through January 2023. Once we had our starting target data, we then added monthly weather, unemployment, and mortgage interest rate data as additional features. Finally, we found a dataset showing the change in market hotness and incorporated that as an additional feature. Our goal then became to predict if the housing market will be hot or not by State.
+Our team decided to analyze the recent volatility in the housing market and attempt to predict where the market is heading with machine learning. After scouring the internet for datasets on the topic, we chose Realtor.com monthly data detailing monthly change in inventory from January 2016 through January 2023. Once we had our starting target data, we gathered features such as monthly weather, unemployment, and even a 'hotness' housing metric. Finally, we found a dataset showing the change in market hotness and incorporated that as an additional feature. Our goal then became to predict if the housing market will be hot or not by State.
 
 ![chart](https://user-images.githubusercontent.com/112498067/223543032-ad52825d-50c4-4225-89c1-c885494292b2.png)
 
 [Project Proposal](https://docs.google.com/document/d/1xqcCmtrioxThe1zX2F1_XzJN-4-UOv9txNYIFMb7ytQ/edit)
+
+# Target and Features
+**Target**: *Hot* or *Not Hot*
+- *Hot* indicated a positive change in housing inventory.
+- *Not Hot* indicated a negative or neutral change in housing inventory.
+
+**Features**
+- *median_listing_price*: 
+- *median_listing_price_mm*:
+- *active_listing_count*:
+- *active_listing_count_mm*:
+- *median_days_on_market*:
+- *median_days_on_market_mm*:
+- *new_listing_count*:
+- *new_listing_count_mm*:
+- *price_increased_count*:
+- *price_increased_count_mm*:
+- *price_reduced_count*:
+- *price_reduced_count_mm*:
+- *median_listing_price_per_square_foot*:
+- *median_listing_price_per_square_foot_mm*:
+- *median_square_feet*:
+- *median_square_feet_mm*:
+- *average_listing_price*: Average price of total listed houses.
+- *average_listing_price_mm*:
+- *total_listing_count*: Total number of houses available.
+- *hotness_rank_mm*: Change in 'hotness' rank from last month.
+- *hotness_score*:
+- *temperature_F*: Temperature in Fahrenheit (F).
+- *temp_change_pct*: Change in temperature (F) from last month.
+- *unemployment_rate*: Unemployment rate.
+- *unemployment_rate_change_pct*: Change in unemployment rate from last month.
 
 ### Extract, Transform, and Load
 Once we decided on our datasets and project goal, we extracted all the data and began to transform it by State, dropping all superfluous columns that were not of interest and eliminating all NaN values. We then created columns to show the monthly change in values for all features. Once the data was transformed, we joined the datasets and loaded them into a SQL database suitable to deploy our learning models.
@@ -26,7 +58,7 @@ Once we decided on our datasets and project goal, we extracted all the data and 
 -False Positive: The model predicts a "hot" market (i.e., an increase in inventory), but in reality, it was not hot. This would negatively impact the buyer in facing stiffer competition due to lower inventory, thus potentially paying more for a home than expected or not being able to purchase a home at all.
 -False Negative: The model predicts a "not hot" market (i.e., a decrease in inventory), but in reality, it was hot. This may negatively impact the buyer in missing out altogether on a housing market with higher inventory.
 
-# Results per model
+# Results per Model
 
 - Random Forest Model:
 
@@ -36,7 +68,7 @@ Once we decided on our datasets and project goal, we extracted all the data and 
 
 ![image](https://user-images.githubusercontent.com/112498067/223524814-6f7352f7-8fde-4edd-a1ed-d9ff0176246b.png)
 
-##### Feature Importancs for Random Forest Model:
+##### Feature Importance for Random Forest Model:
 ![image](https://user-images.githubusercontent.com/112498067/223525245-0605c066-e730-4a0e-ac5f-fe86a0382766.png)
 
 - Logistic Regression Model:
