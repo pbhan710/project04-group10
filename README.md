@@ -1,7 +1,7 @@
 # Introduction
 Our team decided to analyze the recent volatility in the housing market and attempt to predict where the market is heading with machine learning. After scouring the internet for datasets on the topic, we chose Realtor.com monthly data detailing monthly change in inventory from January 2016 through January 2023. Once we had our starting target data, we then added monthly weather, unemployment, and mortgage interest rate data as additional features. Finally, we found a dataset showing the change in market hotness and incorporated that as an additional feature. Our goal then became to predict if the housing market will be hot or not by State.
 
-   ![gettyimages-1219272291-612x612](https://user-images.githubusercontent.com/112498067/222026789-b7866f2f-778b-43fa-9b1a-8205f689249b.jpg)
+![chart](https://user-images.githubusercontent.com/112498067/223543032-ad52825d-50c4-4225-89c1-c885494292b2.png)
 
 [Project Proposal](https://docs.google.com/document/d/1xqcCmtrioxThe1zX2F1_XzJN-4-UOv9txNYIFMb7ytQ/edit)
 
