@@ -9,35 +9,37 @@ Our team decided to analyze the recent volatility in the housing market and atte
 
 # Target and Features
 **Target**: *Hot* or *Not Hot*
-- *Hot* indicated a positive change in housing inventory.
-- *Not Hot* indicated a negative or neutral change in housing inventory.
+- *Hot* indicates a positive change in housing inventory.
+- *Not Hot* indicates a negative or neutral change in housing inventory.
 
 **Features**
-- *median_listing_price*: 
-- *median_listing_price_mm*:
-- *active_listing_count*:
-- *active_listing_count_mm*:
-- *median_days_on_market*:
-- *median_days_on_market_mm*:
-- *new_listing_count*:
-- *new_listing_count_mm*:
-- *price_increased_count*:
-- *price_increased_count_mm*:
-- *price_reduced_count*:
-- *price_reduced_count_mm*:
-- *median_listing_price_per_square_foot*:
-- *median_listing_price_per_square_foot_mm*:
-- *median_square_feet*:
-- *median_square_feet_mm*:
+The following features were pulled and/or aggreggated by state and month:
+
+- *median_listing_price*: Median price of listed houses.
+- *median_listing_price_mm*: Change in median price of listed houses from the previous month.
+- *active_listing_count*: The number of available houses, excluding new.
+- *active_listing_count_mm*: Change in active listing count from the previous month.
+- *median_days_on_market*: The median number of days that listed houses are on market.
+- *median_days_on_market_mm*: Change in median days on market from the previous month.
+- *new_listing_count*: The number of new available houses.
+- *new_listing_count_mm*: Change in new listing count from the previous month.
+- *price_increased_count*: The number of listed homes with a price increase.
+- *price_increased_count_mm*: Change in price increased count from the previous month.
+- *price_reduced_count*: The number of listed homes with a price reduction.
+- *price_reduced_count_mm*: Change in price reduced count from the previous month.
+- *median_listing_price_per_square_foot*: The median listing price divided by square footage of listed houses.
+- *median_listing_price_per_square_foot_mm*: Change in median listing price per square foot from the previous month.
+- *median_square_feet*: The median square footage of listed houses.
+- *median_square_feet_mm*: Change in median square feet from the previous month.
 - *average_listing_price*: Average price of total listed houses.
-- *average_listing_price_mm*:
+- *average_listing_price_mm*: Change in average listing price from the previous month.
 - *total_listing_count*: Total number of houses available.
-- *hotness_rank_mm*: Change in 'hotness' rank from last month.
-- *hotness_score*:
+- *hotness_rank_mm*: Change in 'hotness' rank from the previous month.
+- *hotness_score*: Overall score on how local areas are experiencing fast moving supply and rising demand.
 - *temperature_F*: Temperature in Fahrenheit (F).
-- *temp_change_pct*: Change in temperature (F) from last month.
+- *temp_change_pct*: Change in temperature (F) from the previous month.
 - *unemployment_rate*: Unemployment rate.
-- *unemployment_rate_change_pct*: Change in unemployment rate from last month.
+- *unemployment_rate_change_pct*: Change in unemployment rate from the previous month.
 
 ## Extract, Transform, and Load
 Once we decided on our datasets and project goal, we extracted all the data and began to transform it by State, dropping all superfluous columns that were not of interest and eliminating all NaN values. We then created columns to show the monthly change in values for all features. Once the data was transformed, we joined the datasets and loaded them into a SQL database suitable to deploy our learning models.
@@ -96,6 +98,11 @@ Once we decided on our datasets and project goal, we extracted all the data and 
 # Comparison Between Models:
 
 ![image](https://user-images.githubusercontent.com/112498067/223581577-604bc432-db97-4c37-a8de-740dbe292917.png)
+
+## Supplemental Documents
+- [Project Proposal](https://docs.google.com/document/d/1xqcCmtrioxThe1zX2F1_XzJN-4-UOv9txNYIFMb7ytQ/edit)
+
+- [Project Presentation](https://docs.google.com/presentation/d/1GhEka3J52ylZsLatOjpPYlbh9a9f0X45w1GYYBKl_lc/edit#slide=id.g216f2133fe5_5_0)
 
 ## Data References
 
